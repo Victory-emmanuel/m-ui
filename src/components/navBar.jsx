@@ -47,9 +47,12 @@ const NavBar = () => {
                   sm: "block",
                 },
                 fontWeight: "bold",
+                color: "#fff",
               }}
+              variant="h4"
+              component="h4"
             >
-              <h2>Pawfect</h2>
+              Pawfect
             </Typography>
             <Pets
               sx={{
