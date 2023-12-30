@@ -34,7 +34,7 @@ const RightBar = () => {
           <Typography variant="h6" fontWeight={100} mb={2}>
             Online Friends
           </Typography>
-          <AvatarGroup sx={{ display: "flex", justifyContent: "left" }} max={7}>
+          <AvatarGroup sx={{ display: "flex", justifyContent: "left" }} max={6}>
             <Avatar
               alt="Remy Sharp"
               src="https://material-ui.com/static/images/avatar/1.jpg"
