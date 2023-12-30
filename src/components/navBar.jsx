@@ -47,7 +47,7 @@ const NavBar = () => {
                   sm: "block",
                 },
                 fontWeight: "bold",
-                color: "#fff",
+                color: "white",
               }}
               variant="h4"
               component="h4"
