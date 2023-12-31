@@ -51,7 +51,7 @@ const AddPost = () => {
         >
           <Box
             sx={{
-              width: "30rem",
+              width: { xs: "20rem", md: "30rem", lg: "30rem" },
               height: "25rem",
               bgcolor: "#fff",
               padding: "2rem",
