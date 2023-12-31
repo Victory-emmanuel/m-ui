@@ -47,7 +47,7 @@ const NavBar = () => {
                   sm: "block",
                 },
                 fontWeight: "bold",
-                color: "white",
+                color: "#fff",
               }}
               variant="h4"
               component="h4"
@@ -60,6 +60,7 @@ const NavBar = () => {
                   xs: "block",
                   sm: "none",
                 },
+                color: "#fff",
               }}
             />
           </Box>
@@ -129,21 +130,6 @@ const NavBar = () => {
                 },
               }}
             />
-            <Typography
-              variant="h6"
-              component="h6"
-              sx={{
-                display: {
-                  sm: "inline-block",
-                  md: "none",
-                },
-                fontSize: {
-                  xs: "1rem",
-                },
-              }}
-            >
-              Alex
-            </Typography>
           </Box>
         </StyledToolbar>
         <Menu
